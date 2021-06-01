@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./iconmaster/img.ico" />
+     <link rel="stylesheet" href="./style.css" />
+    <title>Stolen moments</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+  </style>
+  <style>
+    @media (max-width: 768px) {
+      .grand_parent {
+        height: auto;
+      }
+    }
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      /* font-family: "Mate SC", serif; */
+      font-family: "Big Shoulders Display", cursive;
+
+      /* background: #dfe6e9; */
+
+      /* font-family: "Open Sans", sans-serif; */
+      /* font-family: "Stint Ultra Condensed", cursive; */
+    }
+    .grand_parent {
+      width: auto;
+      height: auto;
+      /* margin-right:300px; */
+      background: #dfe6e9;
+      color: #fff;
+      /* color:black; */
+    }
+    /* .child:first-child {
+      background: #ffbe76;
+    }
+    .child:last-child {
+      background: #ff7979;
+    } */
+    h1 {
+      display: inline;
+      font-size: 2rem;
+      padding: 10px 0px;
+      margin: 0 10px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      color: #000;
+    }
+    .child {
+      height: 400px;
+      background: #81ecec;
+      box-shadow: 0 0 20px grey;
+      flex-basis: 300px;
+      margin: 50px 0px;
+      background: url("../udemy/img2.jpg");
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px;
+      /* color:pink; */
+    }
+    .wrap {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(200, 200, 200, 0.6);
+      width: 70%;
+      border-radius: 20px;
+      margin: 200px auto;
+      padding: 20px;
+    }
+    .parents {
+      width: auto;
+      height: auto;
+      margin: 1px;
+      /* background-color:white ; */
+      display: flex;
+      /* justify-content: space-between; */
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .footer {
+      background-color: grey;
+      color: whitesmoke;
+      height: auto;
+      padding: 20px;
+      /* margin:20px; */
+    }
+    .col-1 {
+      display: inline-block;
+      width: 66%;
+    }
+    .col-2 {
+      display: inline-block;
+      /* float: right; */
+      width: 33%;
+      float: right;
+    }
+    .col-2 ul {
+      list-style: none;
+    }
+    .content-footer {
+      display: flex;
+      justify-content: center;
+    }
+    #section1 {
+      background: url("./gallery/resungatowwer.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section2 {
+      background: url("./gallery/Resunga.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section3 {
+      background: url("./gallery/Tamghasbazar.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section4 {
+      background: url("./gallery/Timuretal.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section5 {
+      background: url("./gallery/TamghasHighway.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section6 {
+      background: url("./gallery/tahatim.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section7 {
+      background: url("./gallery/Ullikhola1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section8 {
+      background: url("./gallery/Ishama.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section9 {
+      background: url("./gallery/IshamBIchitra.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section10 {
+      background: url("./gallery/Bharse1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section11 {
+      background: url("./gallery/Bharse2.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section12 {
+      background: url("./gallery/Bharse3.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section13 {
+      background: url("./gallery/Bamgha.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section14 {
+      background: url("./gallery/Baglung.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section15 {
+      background: url("./gallery/Shantipur.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section16 {
+      background: url("./gallery/Khaireni.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section17 {
+      background: url("./gallery/Gulmi-Palpa.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section18 {
+      background: url("./gallery/Gulmi-palpala.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section19 {
+      background: url("./gallery/Gairekhet.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section20 {
+      background: url("./gallery/Palpa.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section21 {
+      background: url("./gallery/Ranimahal.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section22 {
+      background: url("./gallery/Pyuthan.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section23 {
+      background: url("./gallery/Dang.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section24 {
+      background: url("./gallery/Dang1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section25 {
+      background: url("./gallery/Karnali.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section26 {
+      background: url("./gallery/Karnali1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section27 {
+      background: url("./gallery/Karnali4.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section28 {
+      background: url("./gallery/Siddhababa.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section29 {
+      background: url("./gallery/Triund.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section30 {
+      background: url("./gallery/triund1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section31 {
+      background: url("./gallery/swayambhaunath.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section32 {
+      background: url("./gallery/Swaymabhu.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section33 {
+      background: url("./gallery/patanmandir.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section34 {
+      background: url("./gallery/Patan1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section35 {
+      background: url("./gallery/Patan2.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section36 {
+      background: url("./gallery/Lalitpur.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section37 {
+      background: url("./gallery/Lakuri.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section38 {
+      background: url("./gallery/Basantpur.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section39 {
+      background: url("./gallery/Gandaki.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section40 {
+      background: url("./gallery/Ghattekhulo.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section41 {
+      background: url("./gallery/Ghattekhulo1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section42 {
+      background: url("./gallery/Dhimsa.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section43 {
+      background: url("./gallery/Dhimsa1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section44 {
+      background: url("./gallery/Dhimsa3.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section45 {
+      background: url("./gallery/Chandanbari.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section46 {
+      background: url("./gallery/Chandanbari1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section47 {
+      background: url("./gallery/BhairavKunda.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section48 {
+      background: url("./gallery/Gosaikunda.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section49 {
+      background: url("./gallery/Langtang.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section50 {
+      background: url("./gallery/Gosaikunda1.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section51 {
+      background: url("./gallery/Sindhuli1.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    #section52 {
+      background: url("./gallery/Sindhuli3.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  <body>
+    <div class="grand_parent">
+      <h1>Stolen Moments 🇳🇵</h1>
+      <div class="parents">
+        <div class="child" id="section1">
+          <div class="wrap">
+            <p>Resunga view tower</p>
+          </div>
+        </div>
+        <div class="child" id="section2">
+          <div class="wrap">
+            <p>Morning view from Resunga</p>
+          </div>
+        </div>
+        <div class="child" id="section3">
+          <div class="wrap">
+            <p>Tamghas Bazar</p>
+          </div>
+        </div>
+        <div class="child" id="section4">
+          <div class="wrap">
+            <p>Timmure tal</p>
+          </div>
+        </div>
+        <div class="child" id="section5">
+          <div class="wrap">
+            <p>Gulmi-Tamghas Highway</p>
+          </div>
+        </div>
+        <div class="child" id="section6">
+          <div class="wrap">
+            <p>Tahatim Bazar</p>
+          </div>
+        </div>
+        <div class="child" id="section7">
+          <div class="wrap">
+            <p>Ullikhola</p>
+          </div>
+        </div>
+        <div class="child" id="section8">
+          <div class="wrap">
+            <p>Isham</p>
+          </div>
+        </div>
+        <div class="child" id="section9">
+          <div class="wrap">
+            <p>Isham</p>
+          </div>
+        </div>
+        <div class="child" id="section10">
+          <div class="wrap">
+            <p>Bharse</p>
+          </div>
+        </div>
+        <div class="child" id="section11">
+          <div class="wrap">
+            <p>Bharse</p>
+          </div>
+        </div>
+        <div class="child" id="section12">
+          <div class="wrap">
+            <p>Bharse</p>
+          </div>
+        </div>
+        <div class="child" id="section13">
+          <div class="wrap">
+            <p>Bamgha</p>
+          </div>
+        </div>
+        <div class="child" id="section14">
+          <div class="wrap">
+            <p>Baglung</p>
+          </div>
+        </div>
+        <div class="child" id="section15">
+          <div class="wrap">
+            <p>Shantpur</p>
+          </div>
+        </div>
+        <div class="child" id="section16">
+          <div class="wrap">
+            <p>Khaireni</p>
+          </div>
+        </div>
+        <div class="child" id="section17">
+          <div class="wrap">
+            <p>Palpa</p>
+          </div>
+        </div>
+        <div class="child" id="section18">
+          <div class="wrap">
+            <p>Palpa</p>
+          </div>
+        </div>
+        <div class="child" id="section19">
+          <div class="wrap">
+            <p>Gulmi</p>
+          </div>
+        </div>
+        <div class="child" id="section20">
+          <div class="wrap">
+            <p>Palpa</p>
+          </div>
+        </div>
+        <div class="child" id="section21">
+          <div class="wrap">
+            <p>Ranimahal , Palpa</p>
+          </div>
+        </div>
+        <div class="child" id="section22">
+          <div class="wrap">
+            <p>Swargadwari</p>
+          </div>
+        </div>
+        <div class="child" id="section23">
+          <div class="wrap">
+            <p>Dang</p>
+          </div>
+        </div>
+        <div class="child" id="section24">
+          <div class="wrap">
+            <p>Dang</p>
+          </div>
+        </div>
+        <div class="child" id="section25">
+          <div class="wrap">
+            <p>Karnali bridge</p>
+          </div>
+        </div>
+        <div class="child" id="section26">
+          <div class="wrap">
+            <p>Karnali bridge</p>
+          </div>
+        </div>
+        <div class="child" id="section27">
+          <div class="wrap">
+            <p>Karnali bridge</p>
+          </div>
+        </div>
+        <div class="child" id="section28">
+          <div class="wrap">
+            <p>Siddha baba</p>
+          </div>
+        </div>
+        <div class="child" id="section29">
+          <div class="wrap">
+            <p>Triund</p>
+          </div>
+        </div>
+        <div class="child" id="section30">
+          <div class="wrap">
+            <p>Triund</p>
+          </div>
+        </div>
+        <div class="child" id="section31">
+          <div class="wrap">
+            <p>Swayambhunath</p>
+          </div>
+        </div>
+        <div class="child" id="section32">
+          <div class="wrap">
+            <p>Swayambhunath</p>
+          </div>
+        </div>
+        <div class="child" id="section33">
+          <div class="wrap">
+            <p>Patan durbar square</p>
+          </div>
+        </div>
+        <div class="child" id="section34">
+          <div class="wrap">
+            <p>Patan durbar square</p>
+          </div>
+        </div>
+        <div class="child" id="section35">
+          <div class="wrap">
+            <p>Patan durbar square</p>
+          </div>
+        </div>
+        <div class="child" id="section36">
+          <div class="wrap">
+            <p>Patan durbar square</p>
+          </div>
+        </div>
+        <div class="child" id="section37">
+          <div class="wrap">
+            <p>Lakuri Bhanjyang</p>
+          </div>
+        </div>
+        <div class="child" id="section38">
+          <div class="wrap">
+            <p>Basantpur durbar square</p>
+          </div>
+        </div>
+        <div class="child" id="section39">
+          <div class="wrap">
+            <p>Gandaki</p>
+          </div>
+        </div>
+
+        <div class="child" id="section40">
+          <div class="wrap">
+            <p>Ghatte Khola</p>
+          </div>
+        </div>
+        <div class="child" id="section41">
+          <div class="wrap">
+            <p>Ghatte Khola</p>
+          </div>
+        </div>
+        <div class="child" id="section42">
+          <div class="wrap">
+            <p>Deurali</p>
+          </div>
+        </div>
+        <div class="child" id="section43">
+          <div class="wrap">
+            <p>Deurali</p>
+          </div>
+        </div>
+        <div class="child" id="section44">
+          <div class="wrap">
+            <p>Dhimsa</p>
+          </div>
+        </div>
+        <div class="child" id="section45">
+          <div class="wrap">
+            <p>Cholangpati</p>
+          </div>
+        </div>
+        <div class="child" id="section46">
+          <div class="wrap">
+            <p>Cholangpati</p>
+          </div>
+        </div>
+        <div class="child" id="section47">
+          <div class="wrap">
+            <p>Bhairavkunda</p>
+          </div>
+        </div>
+        <div class="child" id="section48">
+          <div class="wrap">
+            <p>Gosaikunda</p>
+          </div>
+        </div>
+        <div class="child" id="section49">
+          <div class="wrap">
+            <p>Langtang</p>
+          </div>
+        </div>
+
+        <div class="child" id="section50">
+          <div class="wrap">
+            <p>Buddha dada</p>
+          </div>
+        </div>
+        <div class="child" id="section51">
+          <div class="wrap">
+            <p>Sindhuli Highway</p>
+          </div>
+        </div>
+        <div class="child" id="section52">
+          <div class="wrap">
+            <p>Sindhuli Highway</p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="content-footer">
+          <div class="col-1">
+            &copy; Copy right 2021
+            <p>Created by Sagar Gnawali</p>
+            <p>Contact 9867013912</p>
+          </div>
+          <div class="col-2">
+            <ul>
+              <li>
+                <a href="https://www.twitter.com" target="_blank">
+                  <img
+                    src="./iconmaster/twitter.svg"
+                    alt="image is not found"
+                    title="twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img
+                    src="./iconmaster/messenger.svg"
+                    alt="Image was not found"
+                    title="facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <img
+                    src="./iconmaster/linkedin1.svg"
+                    alt="image can't found"
+                    title="linkedin"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/gnawalisagar"
+                  target="_blank"
+                >
+                  <img
+                    src="./iconmaster/instagram.svg"
+                    alt="image can't found !"
+                    title="instagram"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

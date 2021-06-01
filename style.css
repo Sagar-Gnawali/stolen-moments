@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@media (max-width: 768px) {
+  .grand_parent {
+    height: auto;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", cursive;
+}
+.grand_parent {
+  width: auto;
+  height: auto;
+  background: #dfe6e9;
+  color: #fff;
+}
+h1 {
+  display: inline;
+  font-size: 2rem;
+  padding: 10px 0px;
+  margin: 0 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+.child {
+  height: 400px;
+  background: #81ecec;
+  box-shadow: 0 0 20px grey;
+  flex-basis: 300px;
+  margin: 50px 0px;
+  background: url("../udemy/img2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(200, 200, 200, 0.6);
+  width: 70%;
+  border-radius: 20px;
+  margin: 200px auto;
+  padding: 20px;
+}
+.parents {
+  width: auto;
+  height: auto;
+  margin: 1px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer {
+  background-color: grey;
+  color: whitesmoke;
+  height: auto;
+  padding: 20px;
+}
+.col-1 {
+  display: inline-block;
+  width: 66%;
+}
+.col-2 {
+  display: inline-block;
+  width: 33%;
+  float: right;
+}
+.col-2 ul {
+  list-style: none;
+}
+.content-footer {
+  display: flex;
+  justify-content: center;
+}
+#section1 {
+  background: url("./gallery/resungatowwer.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section2 {
+  background: url("./gallery/Resunga.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section3 {
+  background: url("./gallery/Tamghasbazar.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section4 {
+  background: url("./gallery/Timuretal.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section5 {
+  background: url("./gallery/TamghasHighway.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section6 {
+  background: url("./gallery/tahatim.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section7 {
+  background: url("./gallery/Ullikhola1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section8 {
+  background: url("./gallery/Ishama.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section9 {
+  background: url("./gallery/IshamBIchitra.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section10 {
+  background: url("./gallery/Bharse1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section11 {
+  background: url("./gallery/Bharse2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section12 {
+  background: url("./gallery/Bharse3.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section13 {
+  background: url("./gallery/Bamgha.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section14 {
+  background: url("./gallery/Baglung.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section15 {
+  background: url("./gallery/Shantipur.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section16 {
+  background: url("./gallery/Khaireni.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section17 {
+  background: url("./gallery/Gulmi-Palpa.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section18 {
+  background: url("./gallery/Gulmi-palpala.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section19 {
+  background: url("./gallery/Gairekhet.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section20 {
+  background: url("./gallery/Palpa.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section21 {
+  background: url("./gallery/Ranimahal.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section22 {
+  background: url("./gallery/Pyuthan.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section23 {
+  background: url("./gallery/Dang.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section24 {
+  background: url("./gallery/Dang1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section25 {
+  background: url("./gallery/Karnali.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section26 {
+  background: url("./gallery/Karnali1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section27 {
+  background: url("./gallery/Karnali4.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section28 {
+  background: url("./gallery/Siddhababa.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section29 {
+  background: url("./gallery/Triund.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section30 {
+  background: url("./gallery/triund1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section31 {
+  background: url("./gallery/swayambhaunath.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section32 {
+  background: url("./gallery/Swaymabhu.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section33 {
+  background: url("./gallery/patanmandir.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section34 {
+  background: url("./gallery/Patan1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section35 {
+  background: url("./gallery/Patan2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section36 {
+  background: url("./gallery/Lalitpur.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section37 {
+  background: url("./gallery/Lakuri.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section38 {
+  background: url("./gallery/Basantpur.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section39 {
+  background: url("./gallery/Gandaki.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section40 {
+  background: url("./gallery/Ghattekhulo.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section41 {
+  background: url("./gallery/Ghattekhulo1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section42 {
+  background: url("./gallery/Dhimsa.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section43 {
+  background: url("./gallery/Dhimsa1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section44 {
+  background: url("./gallery/Dhimsa3.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section45 {
+  background: url("./gallery/Chandanbari.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section46 {
+  background: url("./gallery/Chandanbari1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section47 {
+  background: url("./gallery/BhairavKunda.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section48 {
+  background: url("./gallery/Gosaikunda.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section49 {
+  background: url("./gallery/Langtang.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section50 {
+  background: url("./gallery/Gosaikunda1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#section51 {
+  background: url("./gallery/Sindhuli1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#section52 {
+  background: url("./gallery/Sindhuli3.jpeg");
+  background-size: cover;
+  background-position: center;
+}
